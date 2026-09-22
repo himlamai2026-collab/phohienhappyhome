@@ -142,6 +142,10 @@ details p{padding:0 16px 16px;margin:0;color:#384055}
 .chan{background:#141d4a;color:#cfd6f0;padding:40px 0 30px;font-size:.95rem}
 .chan a{color:#fff}
 .chan .ten-trang{color:#fff;font-size:1.2rem;margin-bottom:.8em}
+.chan .nguoi{display:flex;flex-wrap:wrap;align-items:center;gap:14px 18px}
+.chan .nguoi p{margin:.25em 0}
+.chan .nguoi img{width:128px;height:128px;object-fit:cover;border-radius:12px;border:2px solid rgba(255,255,255,.25);flex:none}
+@media (min-width:480px){.chan .nguoi img{width:160px;height:160px}}
 .chan .nho{font-size:.82rem;color:#9ea8cc;margin-top:18px}
 .nguon{background:transparent;border-color:rgba(255,255,255,.18);margin-top:12px}
 .nguon summary{color:#fff;font-weight:600}
