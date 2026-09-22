@@ -5,7 +5,7 @@
   var ZALO = '0879 388 988';
 
   // ── Meta Pixel: điền mã tập dữ liệu (dataset ID) của tài khoản chạy quảng cáo. Để trống = không nạp gì ──
-  var PIXEL = '';
+  var PIXEL = '3013589955699507';
   if (PIXEL) {
     !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,document,'script','https://connect.facebook.net/en_US/fbevents.js');
     fbq('init', PIXEL);
