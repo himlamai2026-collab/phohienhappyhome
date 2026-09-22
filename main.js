@@ -4,6 +4,22 @@
   var NOI_NHAN = 'https://script.google.com/macros/s/AKfycbwZN0KZv3CF1UcVUZpRk7nMPQrg6i9wns3EicIWlKLgX0s0lFxBUwI15aRygP-tziHKgQ/exec';
   var ZALO = '0879 388 988';
 
+  // ── Meta Pixel: điền mã tập dữ liệu (dataset ID) của tài khoản chạy quảng cáo. Để trống = không nạp gì ──
+  var PIXEL = '';
+  if (PIXEL) {
+    !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,document,'script','https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', PIXEL);
+    fbq('track', 'PageView');
+  }
+  var dem = function (suKien, thongTin) { if (PIXEL && window.fbq) fbq('track', suKien, thongTin); };
+
+  // Bấm Gọi / Zalo ở bất kỳ chỗ nào = một lượt Liên hệ
+  document.querySelectorAll('a[href^="tel:"], a[href*="zalo.me"]').forEach(function (a) {
+    a.addEventListener('click', function () {
+      dem('Contact', { content_name: a.href.indexOf('tel:') === 0 ? 'Gọi' : 'Zalo' });
+    });
+  });
+
   // ── Chọn nhu cầu ──
   var nhuCau = 'Tìm hiểu dự án';
   var chon = document.querySelectorAll('.chon button');
@@ -20,7 +36,8 @@
   var loi = document.getElementById('loi');
   var nut = document.getElementById('nut-gui');
   var thamSo = new URLSearchParams(location.search);
-  var kenh = (thamSo.get('n') || '').replace(/[^\w-]/g, '').slice(0, 40);
+  // Không có ?n= mà có fbclid = khách bấm từ Facebook (quảng cáo hoặc bài thường)
+  var kenh = (thamSo.get('n') || (thamSo.get('fbclid') ? 'fb' : '')).replace(/[^\w-]/g, '').slice(0, 40);
 
   form.addEventListener('submit', function (e) {
     e.preventDefault();
@@ -57,7 +74,10 @@
       mode: 'no-cors',
       headers: { 'Content-Type': 'text/plain;charset=utf-8' },
       body: JSON.stringify(goi)
-    }).then(xong).catch(function () {
+    }).then(function () {
+      dem('Lead', { content_name: 'Đăng ký sớm Phố Hiến', content_category: nhuCau });
+      xong();
+    }).catch(function () {
       nut.disabled = false;
       nut.textContent = 'Gửi thông tin';
       loi.textContent = 'Chưa gửi được. Kiểm tra mạng rồi thử lại, hoặc nhắn Zalo ' + ZALO + '.';
