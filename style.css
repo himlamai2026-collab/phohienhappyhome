@@ -217,3 +217,37 @@ details p{padding:0 16px 16px;margin:0;color:#384055}
   .ten-trang{font-size:.95rem}
   .nut.nho{padding:.5em .7em;font-size:.82rem}
 }
+
+/* ── Trang con: vị trí · điều kiện · hồ sơ · giá (23/09/2026) ── */
+.mo.gon{padding:30px 0 34px}
+.mo.gon h1{font-size:clamp(1.65rem,5.4vw,2.5rem);margin-bottom:.45em}
+.mo.gon .khung{max-width:880px}
+.duong-dan{font-size:.85rem;color:#ffd2b5;margin:0 0 .8em}
+.duong-dan a{color:#ffd2b5}
+.menu a[aria-current]{color:var(--cam);font-weight:700}
+.bai h2{margin-top:1.6em}
+.bai h2:first-child{margin-top:0}
+.bai h3{color:var(--xanh);margin-top:1.2em}
+.bai ul:not(.ds-icon):not(.luoi-ho-so),.bai ol:not(.ds-so){padding-left:1.3em}
+.bai li{margin-bottom:.5em}
+.bai .bang{margin:0 0 1em}
+.trich{border-left:4px solid var(--cam);background:#fff;padding:12px 16px;border-radius:0 12px 12px 0;margin:0 0 1em}
+.trich p{margin:0 0 .4em}
+.trich cite{font-size:.85rem;color:var(--mo);font-style:normal}
+.hop-luu-y{background:#fff7f1;border:1px solid #f6c9a8;border-radius:12px;padding:14px 16px;margin:0 0 1em}
+.hop-luu-y p:last-child{margin:0}
+.buoc{list-style:none;padding:0;margin:0 0 1em;counter-reset:buoc}
+.buoc>li{position:relative;padding:0 0 18px 48px;margin:0}
+.buoc>li::before{counter-increment:buoc;content:counter(buoc);position:absolute;left:0;top:0;width:34px;height:34px;border-radius:50%;background:var(--cam);color:#fff;font-weight:800;display:flex;align-items:center;justify-content:center}
+.buoc>li>b{display:block;color:var(--xanh);margin-bottom:.2em}
+.buoc>li p{margin:.2em 0 0}
+.xem-them{display:inline-block;margin-top:10px;font-weight:700;color:var(--cam-dam);text-decoration:none}
+.xem-them:hover{text-decoration:underline}
+.nen-xanh .xem-them{color:#ffb489}
+.luoi-lien-quan{display:grid;gap:12px;margin-top:18px}
+a.the{display:block;text-decoration:none;color:inherit;transition:border-color .15s}
+a.the:hover{border-color:var(--cam)}
+a.the h3::after{content:" →";color:var(--cam)}
+.chan .trang-con{list-style:none;display:flex;flex-wrap:wrap;gap:6px 18px;margin:18px 0 0;padding:0;font-size:.9rem}
+@media (min-width:720px){.luoi-lien-quan{grid-template-columns:repeat(2,1fr)}}
+@media (min-width:980px){.mo.gon{padding:44px 0 48px}.luoi-lien-quan.bon{grid-template-columns:repeat(4,1fr)}}

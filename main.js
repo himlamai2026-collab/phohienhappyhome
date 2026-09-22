@@ -21,8 +21,9 @@
   });
 
   // ── Chọn nhu cầu ──
-  var nhuCau = 'Tìm hiểu dự án';
   var chon = document.querySelectorAll('.chon button');
+  var batDau = document.querySelector('.chon button.on');
+  var nhuCau = batDau ? batDau.getAttribute('data-v') : 'Tìm hiểu dự án';
   chon.forEach(function (b) {
     b.addEventListener('click', function () {
       chon.forEach(function (x) { x.classList.remove('on'); });
@@ -39,7 +40,7 @@
   // Không có ?n= mà có fbclid = khách bấm từ Facebook (quảng cáo hoặc bài thường)
   var kenh = (thamSo.get('n') || (thamSo.get('fbclid') ? 'fb' : '')).replace(/[^\w-]/g, '').slice(0, 40);
 
-  form.addEventListener('submit', function (e) {
+  if (form) form.addEventListener('submit', function (e) {
     e.preventDefault();
     loi.textContent = '';
     var ten = form.ten.value.trim().replace(/\s+/g, ' ');
@@ -62,7 +63,7 @@
       nguon: 'phohienhappyhome.com' + (kenh ? ' · ' + kenh : ''),
       ketQua: '',
       phanLoai: nhuCau,
-      tomTat: 'Nhu cầu: ' + nhuCau + (ghi ? '\nGhi thêm: ' + ghi : '') + '\nTrang: phohienhappyhome.com' + location.search,
+      tomTat: 'Nhu cầu: ' + nhuCau + (ghi ? '\nGhi thêm: ' + ghi : '') + '\nTrang: phohienhappyhome.com' + location.pathname + location.search,
       traLoi: '',
       thoiDiem: new Date().toISOString()
     };
