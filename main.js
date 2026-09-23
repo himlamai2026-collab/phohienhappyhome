@@ -76,7 +76,7 @@
       headers: { 'Content-Type': 'text/plain;charset=utf-8' },
       body: JSON.stringify(goi)
     }).then(function () {
-      dem('Lead', { content_name: 'Đăng ký sớm Phố Hiến', content_category: nhuCau });
+      dem('CompleteRegistration', { content_name: 'Đăng ký sớm Phố Hiến', content_category: nhuCau });
       xong();
     }).catch(function () {
       nut.disabled = false;
