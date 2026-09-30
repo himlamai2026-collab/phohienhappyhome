@@ -19,7 +19,7 @@ Sổ tra gốc: `ban-hang/62-bo-tra-loi-khach-va-gioi-thieu-pho-hien.md` §1 · 
 | Giấy xác nhận có thời hạn, giấy nhà ở có thể ngắn hơn giấy thu nhập — **không nêu số tháng** | NĐ 136/2026 Điều 2 nói 12 tháng cho giấy thu nhập xác nhận trước ngày hiệu lực; tài liệu đào tạo CĐT nói giấy nhà ở 06 tháng, chưa đối chiếu được điều khoản → bỏ số khỏi trang 23/09/2026 | 23/09/2026 |
 | Ảnh flycam | ảnh cập nhật tiến độ phòng media 07/09/2026 (giữ nguyên logo + dải ngày) | 07/09/2026 |
 | Ảnh cổng công trường | ảnh tự chụp | 09/09/2026 |
-| Ảnh phối cảnh (`pc-*`), mặt bằng 3D (`mb3d-*`), nội thất gợi ý (`nt-*`) — luôn ghi "minh họa của chủ đầu tư"; nội thất kèm "tiêu chuẩn bàn giao theo hợp đồng"; 3D chỉ để hình dung, diện tích lấy theo bản vẽ 2D | Bộ ảnh công ty gửi `thong tin/Phố Hiến/1. NOXH PHỐ HIẾN/` (Anh Tien Ich · Anh boc mai · Noi That Can Ho) | file 07/2026, nhận 22/09/2026 |
+| Ảnh phối cảnh (`pc-*`), nội thất gợi ý (`nt-*`) — luôn ghi "minh họa của chủ đầu tư"; nội thất kèm "tiêu chuẩn bàn giao theo hợp đồng" | Bộ ảnh công ty gửi `thong tin/Phố Hiến/1. NOXH PHỐ HIẾN/` (Anh Tien Ich · Anh boc mai · Noi That Can Ho) | file 07/2026, nhận 22/09/2026 |
 
 **Không đưa lên trang:** giá, lãi suất, ngày mở/đợt, số căn còn, mã căn, địa chỉ/giờ văn phòng, phút/km, khu công nghiệp, Vincom, hồ bơi, "khu hành chính mới", khu thấp tầng Thịnh Vượng (kể cả ảnh phối cảnh TI_9 dãy liền kề), năm bàn giao, mốc tiến độ ngoài công bố chính thức, số liệu quy hoạch 1/500 khi chưa có quyết định duyệt.
 
@@ -39,3 +39,12 @@ Máy dựng: `tools/trang-phohienhappyhome/khung.py` (chạy trong thư mục đ
 **Cố ý không nói trên 4 trang này** (biết nhưng chưa đủ chắc để công khai): nơi nộp Mẫu 02 với người ở tỉnh khác (chỉ ghi "nhắn mình hướng dẫn theo trường hợp"), ai ký Mẫu 05 cho từng nhóm, tên tòa CT01/CT07, số căn từng tòa, hệ số điều chỉnh thu nhập của Hưng Yên (chưa thấy tỉnh ban hành → dùng mức nền 25/35/50), lãi suất vay.
 
 **Tìm kiếm:** sơ đồ trang `sitemap.xml` 5 địa chỉ · dữ liệu cấu trúc WebSite + ApartmentComplex + FAQPage (trang chủ), WebPage + BreadcrumbList + FAQPage (trang con) · khoá IndexNow `3fa79b911fee2b6b9694caf574dee5e7.txt` ở gốc trang, **đừng xoá** — mất khoá là Bing không nhận báo bài mới.
+
+## Cố ý bỏ ra — lệnh sếp 30/09/2026
+
+🔴 **Sếp chốt: phần LAYOUT (mặt bằng tầng điển hình, bản vẽ 2D từng căn) và phần BÓC MÁI (mặt bằng 3D, `mb3d-*`) CHƯA ĐƯỢC ĐĂNG.** Đã gỡ khỏi trang 30/09/2026:
+- `mb3d-studio` · `mb3d-1pn` · `mb3d-1pn-cong-1` · `mb3d-2pn` · `mb3d-2pn-goc` · `mb3d-3pn` (bóc mái, nguồn `Anh boc mai`)
+- `11-can-studio` → `16-can-3pn` (bản vẽ 2D cắt từ mặt bằng tầng điển hình = phần layout)
+- `07-haven-tong-mat-bang` (gỡ cho chắc, chờ sếp xác nhận phạm vi chữ "layout")
+
+Khối "Các loại căn" giờ chỉ còn thẻ chữ: tên loại căn + diện tích thông thủy (số này có trong tài liệu marketing, không phải bản vẽ). **Không treo lại khi chưa có lệnh sếp.**
