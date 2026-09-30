@@ -46,5 +46,7 @@ Máy dựng: `tools/trang-phohienhappyhome/khung.py` (chạy trong thư mục đ
 - `mb3d-studio` · `mb3d-1pn` · `mb3d-1pn-cong-1` · `mb3d-2pn` · `mb3d-2pn-goc` · `mb3d-3pn` (bóc mái, nguồn `Anh boc mai`)
 - `11-can-studio` → `16-can-3pn` (bản vẽ 2D cắt từ mặt bằng tầng điển hình = phần layout)
 - `07-haven-tong-mat-bang` (gỡ cho chắc, chờ sếp xác nhận phạm vi chữ "layout")
+- **Bổ sung 30/09 (ông chủ chỉ tận nơi):** `01-toan-canh` và `04-hai-truc-duong` — hai tấm tổng mặt bằng có **mã tòa H1–H9, L1–L7, N1–N10, R1–R6** in trên bản vẽ. Thay bằng ảnh thật: mục Tổng quan dùng `cong-du-an-09-09` (cổng dự án), mục Vị trí dùng `tien-do-tren-cao` (flycam). Áp cả trang chủ lẫn `/vi-tri/`.
+- Cùng họ, chưa từng lên web nhưng **cấm luôn**: `02-ba-khu-bac`, `03-khu-haven-tren-tong`.
 
 Khối "Các loại căn" giờ chỉ còn thẻ chữ: tên loại căn + diện tích thông thủy (số này có trong tài liệu marketing, không phải bản vẽ). **Không treo lại khi chưa có lệnh sếp.**
