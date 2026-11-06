@@ -122,6 +122,15 @@ figure{margin:0}
 .moc li{padding:6px 0 10px 16px}
 .moc b{display:block;color:var(--cam-dam)}
 
+.khung-video{margin:0 0 16px}
+.khung-video video{display:block;width:100%;height:auto;aspect-ratio:16/9;border-radius:12px;background:#10162f}
+.khung-video figcaption{font-size:.85rem;color:var(--mo);margin-top:8px}
+
+/* toàn cảnh + khu thương mại (phụ) */
+.anh-kem img{width:100%;border-radius:12px;border:1px solid var(--vien)}
+.h2-phu{font-size:clamp(1.2rem,3vw,1.5rem)}
+.khung-anh.ba-anh a:last-child{grid-column:auto;aspect-ratio:4/3}
+
 /* ai mua được */
 .ds-so{padding-left:1.3em;margin:0}
 .ds-so li{margin-bottom:.8em}

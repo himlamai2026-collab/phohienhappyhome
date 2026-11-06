@@ -21,7 +21,11 @@ Sổ tra gốc: `ban-hang/62-bo-tra-loi-khach-va-gioi-thieu-pho-hien.md` §1 · 
 | Ảnh cổng công trường | ảnh tự chụp | 09/09/2026 |
 | Ảnh phối cảnh (`pc-*`), nội thất gợi ý (`nt-*`) — luôn ghi "minh họa của chủ đầu tư"; nội thất kèm "tiêu chuẩn bàn giao theo hợp đồng" | Bộ ảnh công ty gửi `thong tin/Phố Hiến/1. NOXH PHỐ HIẾN/` (Anh Tien Ich · Anh boc mai · Noi That Can Ho) | file 07/2026, nhận 22/09/2026 |
 
-**Không đưa lên trang:** giá, lãi suất, ngày mở/đợt, số căn còn, mã căn, địa chỉ/giờ văn phòng, phút/km, khu công nghiệp, Vincom, hồ bơi, "khu hành chính mới", khu thấp tầng Thịnh Vượng (kể cả ảnh phối cảnh TI_9 dãy liền kề), năm bàn giao, mốc tiến độ ngoài công bố chính thức, số liệu quy hoạch 1/500 khi chưa có quyết định duyệt.
+| Ảnh toàn cảnh đêm `tc-toan-canh-dem` (salekit trang 4, đã cắt cột chữ), cụm tòa `tc-cum-noxh`, khu nhà phố `tm-*` — luôn ghi "minh họa của chủ đầu tư" + dòng lưu ý Ban Quản lý | Bộ tài liệu Phố Hiến Heritage Collection (Drive, ông chủ gửi 06/11/2026) | 11/2026 |
+| Video `video/cong-truong-flycam.mp4` (bản nhạc epic, nén 720p) — chú thích trung tính, chưa biết ngày quay, chưa xác minh tòa nào là NOXH | Như trên | nhận 06/11/2026 |
+| Khu "Phố Hiến Heritage Collection" là nhà ở thương mại thấp tầng, mục phụ | Salekit + biểu Hạnh Phúc/Thịnh Vượng | 11/2026 |
+
+**Không đưa lên trang:** giá, lãi suất, ngày mở/đợt, số căn còn, mã căn, địa chỉ/giờ văn phòng, phút/km, khu công nghiệp, Vincom, hồ bơi, "khu hành chính mới", số căn + giá + layout + lời đầu tư của khu thấp tầng (ông chủ mở phần ảnh 06/11/2026, thương mại là phụ; KHÔNG gắn câu "không tiền cò, không mất phí" cho khu này; không dùng ảnh nội thất nhà phố, không gán tiện ích khu thương mại thành tiện ích NOXH), Học viện An ninh + Cảnh sát 409 ha (chỉ có ở tài liệu đào tạo, chưa thấy báo chính thống, tra 06/11/2026), năm bàn giao, mốc tiến độ ngoài công bố chính thức, số liệu quy hoạch 1/500 khi chưa có quyết định duyệt.
 
 ---
 
