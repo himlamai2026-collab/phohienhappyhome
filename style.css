@@ -124,6 +124,8 @@ figure{margin:0}
 
 .khung-video{margin:0 0 16px}
 .khung-video video{display:block;width:100%;height:auto;aspect-ratio:16/9;border-radius:12px;background:#10162f}
+.khung-video.doc{max-width:420px;margin-top:18px}
+.khung-video.doc video{aspect-ratio:3/4}
 .khung-video figcaption{font-size:.85rem;color:var(--mo);margin-top:8px}
 
 /* toàn cảnh + khu thương mại (phụ) */
@@ -216,6 +218,7 @@ details p{padding:0 16px 16px;margin:0;color:#384055}
   .mo-trong{grid-template-columns:1.05fr 1fr;align-items:center;gap:48px}
   .hai-cot{grid-template-columns:1.3fr 1fr;gap:48px}
   .hai-cot.dao{grid-template-columns:1.3fr 1fr}
+  .hai-cot.cot-anh-rong{grid-template-columns:1fr 1.3fr}
   .luoi-tien-ich{grid-template-columns:repeat(4,1fr)}
   .khuc{padding:80px 0}
 }
@@ -260,3 +263,10 @@ a.the h3::after{content:" →";color:var(--cam)}
 .chan .trang-con{list-style:none;display:flex;flex-wrap:wrap;gap:6px 18px;margin:18px 0 0;padding:0;font-size:.9rem}
 @media (min-width:720px){.luoi-lien-quan{grid-template-columns:repeat(2,1fr)}}
 @media (min-width:980px){.mo.gon{padding:44px 0 48px}.luoi-lien-quan.bon{grid-template-columns:repeat(4,1fr)}}
+
+/* sa bàn: lưới luôn 2 cột; ô có biển dự án để chú thích lên trên, khỏi đè biển */
+#sa-ban .khung-anh{grid-template-columns:repeat(2,1fr)}
+#sa-ban .khung-anh .lon{grid-column:span 2;grid-row:auto;aspect-ratio:4/3}
+#sa-ban .khung-anh a:last-child{grid-column:span 2;aspect-ratio:16/9}
+#sa-ban .khung-anh a.co-bien img{object-position:center bottom}
+#sa-ban .khung-anh a.co-bien span{top:0;bottom:auto;padding:10px 12px 26px;background:linear-gradient(rgba(10,14,30,.78),transparent)}
