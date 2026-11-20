@@ -55,3 +55,14 @@ Máy dựng: `tools/trang-phohienhappyhome/khung.py` (chạy trong thư mục đ
 - Cùng họ, chưa từng lên web nhưng **cấm luôn**: `02-ba-khu-bac`, `03-khu-haven-tren-tong`.
 
 Khối "Các loại căn" giờ chỉ còn thẻ chữ: tên loại căn + diện tích thông thủy (số này có trong tài liệu marketing, không phải bản vẽ). **Không treo lại khi chưa có lệnh sếp.**
+
+- 20/11/2026: gỡ hẳn chữ "không tiền cò / không mất phí" khỏi trang (công ty có vụ ăn chênh). Câu thay: "Hướng dẫn hồ sơ miễn phí, tận tâm từng bước đến ngày nhận nhà". Hỏi đáp "Có mất phí gì không?" đổi thành "Mình được hỗ trợ những gì?".
+
+## Khu liền kề thương mại — mục #nha-pho (20/11/2026)
+
+| Nội dung trên web | Nguồn | Ngày |
+|---|---|---|
+| 303 căn liền kề · ~11,2 ha · sở hữu lâu dài · CĐT Công ty CP Vinhomes | Nhóm Zalo nội bộ "TD2 - Phố Hiến", bài thông tin dự án (Phạm Hoàng Khánh An) | 19/11/2026 |
+| Chính sách bán hàng: chiết khấu thanh toán sớm 7,5% · tặng phí quản lý 24 tháng · VinClub 0,5/0,7/0,9% · voucher đến 31/12/2026 · vay hỗ trợ lãi suất | Cùng nhóm, bài CSBH hiệu lực 20/11/2026 | 19/11/2026 |
+
+Cố ý KHÔNG đưa: giá/bảng giá, quỹ căn còn, lịch ký quỹ/ký HĐ, quỹ thưởng/KPI sale, link bảng hàng/Drive, mật độ xây dựng. Luật cũ ở trên "không đưa số căn + giá khu thấp tầng" đã thay bằng luật 14/11/2026 (được bán hàng thương mại, ghi rõ không phải NOXH).

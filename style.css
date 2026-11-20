@@ -270,3 +270,10 @@ a.the h3::after{content:" →";color:var(--cam)}
 #sa-ban .khung-anh a:last-child{grid-column:span 2;aspect-ratio:16/9}
 #sa-ban .khung-anh a.co-bien img{object-position:center bottom}
 #sa-ban .khung-anh a.co-bien span{top:0;bottom:auto;padding:10px 12px 26px;background:linear-gradient(rgba(10,14,30,.78),transparent)}
+/* khu liền kề thương mại (20/11/2026) */
+.lk-so{margin:18px 0;background:#fff;border:1px solid var(--vien);border-radius:12px;overflow:hidden}
+.lk-cs{margin:0 0 18px}
+.lk-cs ul{margin:.4em 0 .6em 1.1em;padding:0;color:var(--chu,#223)}
+.lk-cs li{margin:.25em 0}
+.lk-cs p{margin:.4em 0 0}
+.lk-moi a{color:var(--cam);font-weight:700}
