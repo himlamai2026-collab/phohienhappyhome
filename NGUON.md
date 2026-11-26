@@ -24,7 +24,7 @@ Sổ tra gốc: `ban-hang/62-bo-tra-loi-khach-va-gioi-thieu-pho-hien.md` §1 · 
 | Ảnh toàn cảnh đêm `tc-toan-canh-dem` (salekit trang 4, đã cắt cột chữ), cụm tòa `tc-cum-noxh`, khu nhà phố `tm-*` — luôn ghi "minh họa của chủ đầu tư" + dòng lưu ý Ban Quản lý | Bộ tài liệu Phố Hiến Heritage Collection (Drive, ông chủ gửi 06/11/2026) | 11/2026 |
 | Video `video/cong-truong-flycam.mp4` (bản nhạc epic, nén 720p) — chú thích trung tính, chưa biết ngày quay, chưa xác minh tòa nào là NOXH | Như trên | nhận 06/11/2026 |
 | Khu "Phố Hiến Heritage Collection" là nhà ở thương mại thấp tầng, mục phụ | Salekit + biểu Hạnh Phúc/Thịnh Vượng | 11/2026 |
-| Ảnh `sb-*` (IMG_6431, 6432, 6435, 6439, tự chụp 29/09/2026) + video `video/sa-ban.mp4` (IMG_6519–6521, tự quay 02/10/2026) — sa bàn thật của dự án (trên mô hình có "ĐCT Hưng Yên – Thái Bình 66,5M", "Đại lộ Thương Cảng 22M"). Đã xoá chữ mã tòa trên đĩa ở ảnh, video cắt bỏ phần đĩa quay mặt ra máy, bỏ tiếng + GPS. Cắt khỏi khung bảng đèn tổng mặt bằng 2D. Lời mời xem sa bàn dùng đúng dòng `Ra ngoài:` sổ nội bộ 01/10/2026 | Ông chủ cho đưa 06/11/2026 | 06/11/2026 |
+| Ảnh `sb-*` (IMG_6431, 6432, 6435, 6439, tự chụp 29/09/2026) — sa bàn thật của dự án (trên mô hình có "ĐCT Hưng Yên – Thái Bình 66,5M", "Đại lộ Thương Cảng 22M"). Đã xoá chữ mã tòa trên đĩa ở ảnh. Cắt khỏi khung bảng đèn tổng mặt bằng 2D. Lời mời xem sa bàn dùng đúng dòng `Ra ngoài:` sổ nội bộ 01/10/2026 | Ông chủ cho đưa 06/11/2026 | 06/11/2026 |
 
 **Không đưa lên trang:** giá, lãi suất, ngày mở/đợt, số căn còn, mã căn, địa chỉ/giờ văn phòng, phút/km, khu công nghiệp, Vincom, hồ bơi, "khu hành chính mới", số căn + giá + layout + lời đầu tư của khu thấp tầng (ông chủ mở phần ảnh 06/11/2026, thương mại là phụ; KHÔNG gắn câu "không tiền cò, không mất phí" cho khu này; không dùng ảnh nội thất nhà phố, không gán tiện ích khu thương mại thành tiện ích NOXH), Học viện An ninh + Cảnh sát 409 ha (chỉ có ở tài liệu đào tạo, chưa thấy báo chính thống, tra 06/11/2026), năm bàn giao, mốc tiến độ ngoài công bố chính thức, số liệu quy hoạch 1/500 khi chưa có quyết định duyệt.
 
@@ -66,3 +66,5 @@ Khối "Các loại căn" giờ chỉ còn thẻ chữ: tên loại căn + diệ
 | Chính sách bán hàng: chiết khấu thanh toán sớm 7,5% · tặng phí quản lý 24 tháng · VinClub 0,5/0,7/0,9% · voucher đến 31/12/2026 · vay hỗ trợ lãi suất | Cùng nhóm, bài CSBH hiệu lực 20/11/2026 | 19/11/2026 |
 
 Cố ý KHÔNG đưa: giá/bảng giá, quỹ căn còn, lịch ký quỹ/ký HĐ, quỹ thưởng/KPI sale, link bảng hàng/Drive, mật độ xây dựng. Luật cũ ở trên "không đưa số căn + giá khu thấp tầng" đã thay bằng luật 14/11/2026 (được bán hàng thương mại, ghi rõ không phải NOXH).
+
+| Video `video/xuyen-tuong-lai.mp4` ở mục Sa bàn: "Xuyên đến tương lai", bản sửa 15/11/2026 (đã bỏ câu "cây xanh 70%"), nén 720p. Thay video sa bàn tối 26/11/2026 theo lệnh ông chủ. 3 câu học viện CS/AN · gần cao tốc · BV vài bước chân giữ theo anh chốt 15/11 (anh có nguồn chính thức) | Ông chủ 26/11/2026 | 26/11/2026 |

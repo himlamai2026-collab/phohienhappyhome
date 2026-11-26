@@ -124,8 +124,8 @@ figure{margin:0}
 
 .khung-video{margin:0 0 16px}
 .khung-video video{display:block;width:100%;height:auto;aspect-ratio:16/9;border-radius:12px;background:#10162f}
-.khung-video.doc{max-width:420px;margin-top:18px}
-.khung-video.doc video{aspect-ratio:3/4}
+.khung-video.doc{max-width:360px;margin-top:18px}
+.khung-video.doc video{aspect-ratio:9/16}
 .khung-video figcaption{font-size:.85rem;color:var(--mo);margin-top:8px}
 
 /* toàn cảnh + khu thương mại (phụ) */
